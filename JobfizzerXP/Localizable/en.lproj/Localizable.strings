@@ -1,0 +1,425 @@
+/* 
+  localisation.strings
+  UberdooXP
+
+  Created by admin on 11/20/18.
+  Copyright © 2018 Uberdoo. All rights reserved.
+*/
+
+//Alert
+
+"OK" = "OK";
+"Login Failed" = "Login Failed";
+"Invalid Email" = "Invalid Email";
+"Validation Failed" = "Validation Failed";
+"Invalid Password" = "Invalid Password";
+"Oops" = "Oops";
+"Failed" ="Failed";
+"$" = "$";
+"Camera" = "Camera";
+"Photo Library" = "Photo Library";
+"Cancel" = "Cancel";
+"Select your DOB" = "Select your DOB";
+"Done" = "Done";
+"Cancel" = "Cancel";
+"First Name Required" = "First Name Required";
+"Last Name Required" = "Last Name Required";
+"DOB Required" = "DOB Required";
+"Gender Required" = "Gender Required";
+"Address Line1 Required" = "Address Line1 Required";
+"Address Line2 Required" = "Address Line2 Required";
+"City Required" = "City Required";
+"State Required" = "State Required";
+"Zipcode Required" = "Zipcode Required";
+"Email Required" = "Email Required";
+"Enter Valid Mail Id" = "Enter Valid Mail Id";
+"Mobile Number Required" = "Mobile Number Required";
+"Password Required" = "Password Required";
+"Password Should be minimum 6 characters" = "Password Should be minimum 6 characters";
+"Passwords do not match" = "Passwords do not match";
+"Work Experience Required" = "Work Experience Required";
+"About You Required" = "About You Required";
+"Image Required" = "Image Required";
+"Select atleast one category" = "Select atleast one category";
+"Add your availability" = "Add your availability";
+"Firstname is Empty" = "Firstname is Empty";
+"Lastname is Empty" = "Lastname is Empty";
+"AddressLine1 is Empty" = "AddressLine1 is Empty";
+"AddressLine2 is Empty" = "AddressLine2 is Empty";
+"Validation failed" = "Validation failed";
+"City is Empty" = "City is Empty";
+"state is Empty" = "state is Empty";
+"Zipcode is Empty" = "Zipcode is Empty";
+"AboutYou is Empty" = "AboutYou is Empty";
+"Password is Empty" = "Password is Empty";
+"WorkExperience is Empty" = "WorkExperience is Empty";
+"Email is Empty" = "Email is Empty";
+"Password is Empty" = "Password is Empty";
+"Phone Number is Empty" ="Phone Number is Empty";
+"DOB is Empty" = "DOB is Empty";
+"Category is Empty" = "Category is Empty";
+"Profile Image is Empty" = "Profile Image is Empty";
+"Signup Failed" = "Signup Failed";
+"Signup Successful" = "Signup Successful";
+"Please login" = "Please login";
+"please enable location services in your phone settings to continue" = "please enable location services in your phone settings to continue";
+"Quick Pitch required" = "Quick Pitch required";
+"Price per hour required" = "Price per hour required";
+"Experience required" = "Experience required";
+"Select a sub category" = "Select a sub category";
+"Select a category" = "Select a category";
+"Please Select an Image" = "Please Select an Image";
+"Please enter phone number" = "Please enter phone number";
+"Please enter Email ID" = "Please enter Email ID";
+"Please check your internet connection" = "Please check your internet connection";
+
+// Siginin ViewController
+"Jobfizzer XP" = "Jobfizzer XP";
+"Sign in" = "Sign in";
+"Email ID" = "Email ID";
+"PASSWORD" = "PASSWORD";
+"LOGIN" = "LOGIN";
+"Don't have an account?" ="Don't have an account?";
+"Forgot Password?" = "Forgot Password?";
+"Logging in..." = "Logging in...";
+"Attenction!" = "Attenction!";
+"HI! Your Account Has Been Suspended By Admin. For Further Information Please Contact admin@jobfizzer.com" = "HI! Your Account Has Been Suspended By Admin. For Further Information Please Contact admin@jobfizzer.com";
+
+//Forgot Password
+"Forgot Password" = "Forgot Password";
+"Enter your email to receive a verification code" = "Enter your email to receive a verification code";
+"Email" = "Email";
+"Next" = "Next";
+"Sending OTP..." = "Sending OTP...";
+"Validation Failed" = "Validation Failed";
+"Invalid Email" = "Invalid Email";
+
+//SignUp ViewController
+"GENERAL" = "GENERAL";
+"ADDRESS" = "ADDRESS";
+"REGISTER" = "REGISTER";
+"PROFILE" = "PROFILE";
+"CATEGORY" = "CATEGORY";
+"AVAILABLE" = "AVAILABLE";
+"Email address" = "Email address";
+"Phone number" = "Phone number";
+"Password" = "Password";
+"Confirm Password" = "Confirm Password";
+"Address 1" = "Address 1";
+"Address 2" = "Address 2";
+"City" = "City";
+"State/ province" = "State/ province";
+"Zipcode/Postalcode" = "Zipcode/Postalcode";
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Get Address from Map" = "Get Address from Map";
+"DOB" = "DOB";
+"Male" = "Male";
+"Female" = "Female";
+"Other" = "Other";
+"Work experience" = "Work experience";
+"About you" = "About you";
+"ADD CATEGORY" = "ADD CATEGORY";
+"Service:" = "Service:";
+"Experience:" = "Experience:";
+"Price per hour:" = "Price per hour:";
+"Quick pitch:" = "Quick pitch:";
+"Hello!" = "Hello!";
+"Create your account to continue" = "Create your account to continue";
+"NEXT" = "NEXT";
+"FINISH" = "FINISH";
+"Already have an account?" = "Already have an account?";
+"Almost Done..." = "Almost Done...";
+"Registering" = "Registering";
+
+// AddCategoryViewController
+"ADD CATEGORY DETAILS" = "ADD CATEGORY DETAILS";
+"DONE" = "DONE";
+"Category" = "Category";
+"Experience in Months" = "Experience in Months";
+"Price / Hr (in $)" = "Price / Hr (in $)";
+"Quick Pitch" = "Quick Pitch";
+"Fetching..." = "Fetching...";
+
+
+// EditCategoryViewController
+"EDIT CATEGORY DETAILS" = "EDIT CATEGORY DETAILS";
+"EDIT" = "EDIT";
+"SAVE" = "SAVE";
+"Category" = "Category";
+"Sub Category" = "Sub Category";
+"Experience in Months" = "Experience in Months";
+"Price / Hr (in $)" = "Price / Hr (in $)";
+"Quick Pitch" = "Quick Pitch";
+"EDIT" = "EDIT";
+"SAVE" = "SAVE";
+"Updating service..." = "Updating service...";
+"Removing service..." = "Removing service...";
+
+
+//  OTPViewController
+
+"Enter verification code" = "Enter verification code";
+"VERIFY" = "VERIFY";
+"Sending OTP..." = "Sending OTP...";
+
+// ResetPasswordViewController
+
+"Reset Password" = "Reset Password";
+"PASSWORD" = "PASSWORD";
+"CONFIRM PASSWORD" = "CONFIRM PASSWORD";
+"Validation Failed" = "Validation Failed";
+"Please enter a vaild Password" = "Please enter a vaild Password";
+"Changing your password..." = "Changing your password...";
+"Login Failed" = "Login Failed";
+"Password Changed Successfully" = "Password Changed Successfully";
+"Please login" = "Please login";
+"Passwords do not match!" = "Passwords do not match!";
+
+
+// ChangePasswordViewController
+
+"Change Password" = "Change Password";
+"CURRENT PASSWORD" = "CURRENT PASSWORD";
+"PASSWORD" = "PASSWORD";
+"NEW PASSWORD" = "NEW PASSWORD";
+"CONFIRM PASSWORD" = "CONFIRM PASSWORD";
+"SUBMIT" = "SUBMIT";
+"Validation Failed" = "Validation Failed";
+"Invalid Current Password" = "Invalid Current Password";
+"Invalid Current Password" = "Invalid Current Password";
+"Passwords do not match!" = "Passwords do not match!";
+"Changing Password..." = "Changing Password...";
+"Failed" = "Failed";
+"Success" = "Success";
+"Password Changed Successfully" = "Password Changed Successfully";
+"New Password and Confirm Password Should be Same" = "New Password and Confirm Password Should be Same";
+"Please Enter Confirm Password" = "Please Enter Confirm Password";
+"Please Enter New Password" = "Please Enter New Password";
+"Please Enter Old Password" = "Please Enter Old Password";
+
+
+
+
+// EditProfileViewController
+
+"Edit Profile" = "Edit Profile";
+"First name" = "First name";
+"Last name" = "Last name";
+"Mobile number" = "Mobile number";
+"DOB" = "DOB";
+"Gender" = "Gender";
+"About You" = "About You";
+"SAVE" = "SAVE";
+"Fetching Profile Details..." = "Fetching Profile Details...";
+"Oops" = "Oops";
+"OK" = "OK";
+"Camera" = "Camera";
+"Photo Library" = "Photo Library";
+"Cancel" = "Cancel";
+"Uploading Image" = "Uploading Image";
+"Something went wrong" = "Something went wrong";
+"Validation Failed" = "Validation Failed";
+"Please Enter First Name" = "Please Enter First Name";
+"Please Enter Last Name" = "Please Enter Last Name";
+"Please Enter Mobile Number" = "Please Enter Mobile Number";
+"Please Select Gender" = "Please Select Gender";
+"Please Select DOB" = "Please Select DOB";
+"Please Enter About You" = "Please Enter About You";
+"Updating Profile Details..." = "Updating Profile Details...";
+"Select your DOB" = "Select your DOB";
+"Done" = "Done";
+"Cancel" = "Cancel";
+"Male" = "Male";
+"Female" = "Female";
+"Other" = "Other";
+
+// HomeViewController
+
+"You Have no bookings Available" = "You Have no bookings Available";
+"Pull to refresh" = "Pull to refresh";
+"Updating your Booking Status..." = "Updating your Booking Status...";
+"Alert" = "Alert";
+"Take Photo" = "Take Photo";
+"Select the option" = "Select the option";
+"Camera" = "Camera";
+"Photo Library" = "Photo Library";
+"Cancel" = "Cancel";
+"Skip" = "Skip";
+"Uploading" = "Uploading";
+"Confirm" = "Confirm";
+"Are you sure you want to cancel this booking?" = "Are you sure you want to cancel this booking?";
+"Yes" = "Yes";
+"No" = "No";
+"Fetching your Bookings..." = "Fetching your Bookings...";
+"Cancelling your Booking..." = "Cancelling your Booking...";
+"Pending" = "Pending";
+"Rejected" = "Rejected";
+"Accepted" = "Accepted";
+"START TO PLACE" = "START TO PLACE";
+"Cancelled by User" = "Cancelled by User";
+"Cancelled by Provider" = "Cancelled by Provider";
+"On the way" = "On the way";
+"START JOB" = "START JOB";
+"Work in progress" = "Work in progress";
+"Payment pending" = "Payment pending";
+"Review pending" = "Review pending";
+"Job Completed" = "Job Completed";
+
+// AccountViewController
+
+"Guest User" = "Guest User";
+"About Us" = "About Us";
+"Help and FAQ" = "Help and FAQ";
+"Login" = "Login";
+"Profile" = "Profile";
+"Change Password" = "Change Password";
+"Address" = "Address";
+"Appointments" = "Appointments";
+"Services" = "Services";
+"Schedule" = "Schedule";
+"About Us" = "About Us";
+"Change Theme" = "Change Theme";
+"Logout" = "Logout";
+"Logging out..." = "Logging out...";
+
+
+// BookingDetailsViewController
+
+"hr" = "hr";
+"min" = "min";
+"Elapsed Time" = "Elapsed Time";
+"Hours" = "Hours";
+"TAX" = "TAX";
+"Total" = "Total";
+"Booking Status" = "Booking Status";
+"Booking Name" = "Booking Name";
+"Booking ID" = "Booking ID";
+"Date and Time" = "Date and Time";
+"Address" = "Address";
+"Finish Job" = "Finish Job";
+"Service Status" = "Service Status";
+"CANCEL" = "CANCEL";
+"Payment pending" = "Payment pending";
+"Payment pending" = "Payment pending";
+"Review pending" = "Review pending";
+"Job Completed" = "Job Completed";
+"On the way" = "On the way";
+"Work in progress" = "Work in progress";
+"Pending" = "Pending";
+"Accepted" = "Accepted";
+"Rejected" = "Rejected";
+"Cancelled by Provider" = "Cancelled by Provider";
+"Cancelled by User" = "Cancelled by User";
+"Pending" = "Pending";
+"Confirm" = "Confirm";
+"Are you sure you have finished the job?" = "Are you sure you have finished the job?";
+"Cancelling your Booking..." = "Cancelling your Booking...";
+
+// NewRequestViewController
+
+"NEW REQUEST!!" = "NEW REQUEST!!";
+"ACCEPT" = "ACCEPT";
+"REJECT" = "REJECT";
+" has sent you a request for " = " has sent you a request for ";
+" at " = " at ";
+" for the slot " = " for the slot ";
+" has sent you a request. " = " has sent you a request. ";
+"Rejecting your booking..." = "Rejecting your booking...";
+"Accepting your booking..." = "Accepting your booking...";
+
+
+// AddressViewController
+
+"Address" = "Address";
+"Address Line 1" = "Address Line 1";
+"Address Line 2" = "Address Line 2";
+"City" = "City";
+"State" = "State";
+"Zipcode" = "Zipcode";
+"SAVE" = "SAVE";
+"Fetching your Profile..." = "Fetching your Profile...";
+"Updating your Address..." = "Updating your Address...";
+
+
+
+// MessagesViewController
+
+"Chat List" = "Chat List";
+"You have no messages" = "You have no messages";
+
+
+// ChatViewController
+
+"Send" = "Send";
+"Type your message" = "Type your message";
+"Loading..." = "Loading...";
+
+// AddAddressViewController
+
+"Add new address" = "Add new address";
+"Fetching..." = "Fetching...";
+"Validation Failed" = "Validation Failed";
+"Title is required" = "Title is required";
+"Door No. is required" = "Door No. is required";
+
+// ReviewViewController
+
+"Give us your rating" = "Give us your rating";
+"Help your provider improve their service by rating them" = "Help your provider improve their service by rating them";
+"Tell us about our service" = "Tell us about our service";
+"Type your comments" = "Type your comments";
+"CONFIRM" = "CONFIRM";
+"Loading..." = "Loading...";
+"Please provide a rating" = "Please provide a rating";
+"Thanks for your review." = "Thanks for your review.";
+"Thanks for using Jobfizzer XP service" = "Thanks for using Jobfizzer XP service";
+
+// CalendarViewController
+"Appointments" = "Appointments";
+
+// BookHomeViewController
+
+"You Have no Bookings Available" = "You Have no Bookings Available";
+"Pull to refresh" = "Pull to refresh";
+"Updating your Booking Status..." = "Updating your Booking Status...";
+"Are you sure you want to cancel this booking?" = "Are you sure you want to cancel this booking?";
+"Fetching your Bookings..." = "Fetching your Bookings...";
+"Cancelling your Booking..." = "Cancelling your Booking...";
+
+// PaymentConfirmationViewController
+
+"PAYMENT CONFIRMATION" = "PAYMENT CONFIRMATION";
+"Confirm that if you've received payment from the client." = "Confirm that if you've received payment from the client.";
+"PAYMENT RECEIVED" = "PAYMENT RECEIVED";
+"Confirming Payment..." = "Confirming Payment...";
+
+// ServicesViewController
+
+"Services" = "Services";
+"ADD CATEGORY" = "ADD CATEGORY";
+"Fetching your Services..." = "Fetching your Services...";
+"Adding your Service..." = "Adding your Service...";
+"Service:" = "Service:";
+"Experience:" = "Experience:";
+"Price per hour:" = "Price per hour:";
+"Quick pitch:" = "Quick pitch:";
+
+// SchedulesViewController
+
+"MON" = "MON";
+"TUE" = "TUE";
+"WED" = "WED";
+"THU" = "THU";
+"FRI" = "FRI";
+"SAT" = "SAT";
+"SUN" = "SUN";
+"ADD TIME" = "ADD TIME";
+"Fetching your Schedule..." = "Fetching your Schedule...";
+"Updating Schedules..." = "Updating Schedules...";
+
+
+
+
+
+
