@@ -68,7 +68,7 @@ class AddCategoryViewController: UIViewController,UIPickerViewDelegate,UIPickerV
         experienceFld.placeholder = "Experience in Months".localized()
         experienceFld.font = FontBook.Regular.of(size: 17)
         
-        pricePerHourFld.placeholder = "Price / Hr (in $)".localized()
+        pricePerHourFld.placeholder = "Price / Hr (in ₦)".localized()
         pricePerHourFld.font = FontBook.Regular.of(size: 15)
         
         quickPitchFld.placeholder = "Quick Pitch".localized()

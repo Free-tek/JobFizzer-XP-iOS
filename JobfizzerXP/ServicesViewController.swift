@@ -275,7 +275,7 @@ class ServicesViewController: UIViewController,AddressSelectionDelegate,UICollec
         
         let price = "Price per hour:".localized()
         
-        let priceperhour = "\(price) $\(self.categories[indexPath.row]["priceperhour"].stringValue)"
+        let priceperhour = "\(price) ₦\(self.categories[indexPath.row]["priceperhour"].stringValue)"
         let priceperhourRange = NSRange(location: 0, length: 15)
         let priceperhourAttributedString = NSMutableAttributedString(string: priceperhour, attributes: nil)
         priceperhourAttributedString.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: priceperhourRange)

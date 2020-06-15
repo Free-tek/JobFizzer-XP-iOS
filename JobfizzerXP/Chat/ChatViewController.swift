@@ -139,9 +139,12 @@ class ChatViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
         self.tableView.addSubview(self.refreshControl)
         
+        //tunde added
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.enableAutoToolbar = false
         
-        IQKeyboardManager.sharedManager().enableAutoToolbar = false
-        IQKeyboardManager.sharedManager().enable = false
+//        IQKeyboardManager.sharedManager().enableAutoToolbar = false
+//        IQKeyboardManager.sharedManager().enable = false
         
         
         
@@ -314,8 +317,13 @@ class ChatViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
         self.navigationController?.setNavigationBarHidden(false, animated: false)
         
-        IQKeyboardManager.sharedManager().enableAutoToolbar = true
-        IQKeyboardManager.sharedManager().enable = true
+        //tunde added
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.enableAutoToolbar = true
+        
+        
+//        IQKeyboardManager.sharedManager().enableAutoToolbar = true
+//        IQKeyboardManager.sharedManager().enable = true
         
         appDelegate.chatReceiveID = ""
         

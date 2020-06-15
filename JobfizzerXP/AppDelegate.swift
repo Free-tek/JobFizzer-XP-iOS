@@ -42,7 +42,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate,MessagingDelegate,CLLocati
         
         GMSServices.provideAPIKey(Constants.mapsKey)
         GMSPlacesClient.provideAPIKey(Constants.placesKey)
-        IQKeyboardManager.sharedManager().enable = true
+        
+        //tunde added
+        //IQKeyboardManager.sharedManager().enable = true
+        IQKeyboardManager.shared.enable = true
         
         
         Messaging.messaging().delegate = self

@@ -316,14 +316,26 @@ class SigninViewController: UIViewController,UITextFieldDelegate {
             ]
         }
         
-        let deviceToken = InstanceID.instanceID().token()
+        var token = ""
+        let deviceToken = InstanceID.instanceID().instanceID { (result, error) in
+        //tunde added
+        if let error = error {
+        print("Error fetching remote instange ID: \(error)")
+        } else if let result = result {
+        print("Remote instance ID token: \(result.token)")
+            token = result.token
+         }
+        }
+        
         
         var params = Parameters()
         
-        if SharedObject().hasData(value: deviceToken)
+        if SharedObject().hasData(value: token)
+        //if SharedObject().hasData(value: deviceToken)
         {
             params = [
-                "fcm_token": deviceToken!,
+                "fcm_token": token,
+                //"fcm_token": deviceToken,
                 "os":"iOS"
             ]
         }

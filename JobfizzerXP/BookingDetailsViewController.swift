@@ -574,7 +574,7 @@ class BookingDetailsViewController: UIViewController,UITableViewDelegate,UITable
             
             self.elapsedTimeView.isHidden = true
             vwchat.isHidden = true
-            self.total.text = "$\(bookingDetails["total_cost"]!.stringValue)"
+            self.total.text = "₦\(bookingDetails["total_cost"]!.stringValue)"
             self.tax.text = bookingDetails["gst_cost"]!.stringValue
             self.taxLbl.text = "\(bookingDetails["tax_name"]!.stringValue) (\(bookingDetails["gst_percent"]!.stringValue)%)"
             

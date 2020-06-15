@@ -176,10 +176,24 @@ class SplashViewController: UIViewController, OfflineViewControllerDelegate {
         }
         
         var params: Parameters!
-        if let deviceToken = InstanceID.instanceID().token()
-        {
+        var token = ""
+        _  = InstanceID.instanceID().instanceID { (result, error) in
+        if let error = error {
+        print("Error fetching remote instange ID: \(error)")
+        } else if let result = result {
+        print("Remote instance ID token: \(result.token)")
+            token = result.token
+            
+         }
+        }
+        
+        //if let deviceToken = InstanceID.instanceID().token()
+        
+            
+        if !token.isEmpty{
             params = [
-                "fcm_token": deviceToken,
+                "fcm_token": token,
+                //"fcm_token": deviceToken,
                 "os":"iOS"
             ]
         }

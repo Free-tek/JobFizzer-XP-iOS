@@ -63,7 +63,7 @@ class EditCategoryViewController: UIViewController, UITextFieldDelegate {
         categoryFld.placeholder = "Category".localized()
         subCategoryFld.placeholder = "Sub Category".localized()
         experienceFld.placeholder = "Experience in Months".localized()
-        pricePerHourFld.placeholder = "Price / Hr (in $)".localized()
+        pricePerHourFld.placeholder = "Price / Hr (in ₦)".localized()
         quickPitchFld.placeholder = "Quick Pitch".localized()
         editButton.setTitle("EDIT".localized(), for: .normal)
         btnDelete.setTitle("DELETE".localized(), for: .normal)

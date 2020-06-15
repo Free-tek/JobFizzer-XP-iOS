@@ -154,12 +154,12 @@ class BiilingDetailsViewController: UIViewController,UNUserNotificationCenterDel
 
         }
        
-        self.totalLbl.text = "$ \(String(describing: self.bookingDetails["total_cost"]!.stringValue))"
+        self.totalLbl.text = "₦ \(String(describing: self.bookingDetails["total_cost"]!.stringValue))"
         
         self.price = self.bookingDetails["total_cost"]!.stringValue
         self.taxNameLbl.text = "\(String(describing: self.bookingDetails["tax_name"]!.stringValue)) (\(self.bookingDetails["gst_percent"]!.stringValue)%)"
-        self.taxLbl.text = "$ \(String(describing: self.bookingDetails["gst_cost"]!.stringValue))"
-        self.priceLbl.text = "$ \(String(describing: self.bookingDetails["cost"]!.stringValue))"
+        self.taxLbl.text = "₦ \(String(describing: self.bookingDetails["gst_cost"]!.stringValue))"
+        self.priceLbl.text = "₦ \(String(describing: self.bookingDetails["cost"]!.stringValue))"
         let workhrs = minutesToHoursMinutes(minutes: self.bookingDetails["worked_mins"]!.intValue)
         
         if(workhrs.hours > 0)
@@ -323,7 +323,7 @@ extension BiilingDetailsViewController
         
         cell.taxNameLbl.text = "\(self.bookingDetails["alltax"]!.arrayValue[indexPath.row]["taxname"].stringValue) \(self.bookingDetails["alltax"]!.arrayValue[indexPath.row]["tax_amount"].stringValue)% "
         
-        cell.taxValueLbl.text = " $ \(self.bookingDetails["alltax"]!.arrayValue[indexPath.row]["tax_totalamount"].stringValue)"
+        cell.taxValueLbl.text = " ₦ \(self.bookingDetails["alltax"]!.arrayValue[indexPath.row]["tax_totalamount"].stringValue)"
         
         cell.selectionStyle = .none
         return cell
@@ -334,7 +334,7 @@ extension BiilingDetailsViewController
             
             cell.miscellaneousName.text = "\(self.bookingDetails["material_details"]!.arrayValue[indexPath.row]["material_name"].stringValue)"
             
-            cell.miscellaneousValue.text = " $ \(self.bookingDetails["material_details"]!.arrayValue[indexPath.row]["material_cost"].stringValue)"
+            cell.miscellaneousValue.text = " ₦ \(self.bookingDetails["material_details"]!.arrayValue[indexPath.row]["material_cost"].stringValue)"
             
             cell.selectionStyle = .none
             return cell

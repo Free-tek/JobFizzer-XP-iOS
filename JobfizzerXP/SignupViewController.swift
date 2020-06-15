@@ -520,7 +520,12 @@ class SignupViewController: UIViewController,UITextFieldDelegate,UICollectionVie
 
 //            DateDialog.datePicker.setDate(date, animated: false)
             
-             DateDialog.show("Select your DOB".localized(), doneButtonTitle: "Done".localized(), cancelButtonTitle: "Cancel".localized(), defaultDate: date, minimumDate: nil, maximumDate: Date(), datePickerMode: .date)
+             let calendar = Calendar(identifier: .gregorian)
+             var comps = DateComponents()
+             comps.year = -18
+             let maxDate = calendar.date(byAdding: comps, to: Date())
+            
+             DateDialog.show("Select your DOB".localized(), doneButtonTitle: "Done".localized(), cancelButtonTitle: "Cancel".localized(), defaultDate: date, minimumDate: nil, maximumDate: maxDate, datePickerMode: .date)
              {
                 (date) -> Void in
                 if let dt = date {
@@ -575,7 +580,7 @@ class SignupViewController: UIViewController,UITextFieldDelegate,UICollectionVie
         experienceAttributedString.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: experienceRange)
         cell.exprerience.attributedText = experienceAttributedString
        
-        let priceperhour = "\(Priceprhr) $\(self.categories[indexPath.row]["priceperhour"].stringValue)"
+        let priceperhour = "\(Priceprhr) ₦\(self.categories[indexPath.row]["priceperhour"].stringValue)"
         let priceperhourRange = NSRange(location: 0, length: 15)
         let priceperhourAttributedString = NSMutableAttributedString(string: priceperhour, attributes: nil)
         priceperhourAttributedString.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: priceperhourRange)
